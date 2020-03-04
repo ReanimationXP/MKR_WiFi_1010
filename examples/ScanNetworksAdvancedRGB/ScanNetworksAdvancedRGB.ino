@@ -4,14 +4,18 @@
   scans for available WiFi networks using the NINA module.
   Every ten seconds, it scans again. It doesn't actually
   connect to any network, so no encryption scheme is specified.
-  BSSID and WiFi channel are printed
+  BSSID and WiFi channel are printed.
+
+  This example has been modified from ScanNetworksAdvanced with pin definitions
+  for the onboard RGB LED, and a setLEDColor() function which changes the LED state
+  from Red (init) to Blue (scanning for wifi) and finally Green (idling).
 
   Circuit:
   * Board with NINA module (Arduino MKR WiFi 1010, MKR VIDOR 4000 and UNO WiFi Rev.2)
 
   This example is based on ScanNetworksAdvanced
 
-  created 18 Jan 2019
+  modified 18 Jan 2019
   by Drew Alden (ReanimationXP)
 */
 

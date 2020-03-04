@@ -1,17 +1,13 @@
 /*
 
-  This example  prints the board's MAC address, and
-  scans for available WiFi networks using the NINA module.
-  Every ten seconds, it scans again. It doesn't actually
-  connect to any network, so no encryption scheme is specified.
-  BSSID and WiFi channel are printed
+  This example sets the pin definitions for the onboard RGB led, defines a new
+  setLEDColor() function, and cycles through a basic rainbow by slowly increasing
+  then decreasing the brightness of each color segment within the RGB led.  
 
   Circuit:
   * Board with NINA module (Arduino MKR WiFi 1010, MKR VIDOR 4000 and UNO WiFi Rev.2)
 
-  This example is based on ScanNetworksAdvanced
-
-  created 18 Jan 2019
+  modified 18 Jan 2019
   by Drew Alden (ReanimationXP)
 */
 

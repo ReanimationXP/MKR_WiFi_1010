@@ -13,8 +13,6 @@
   Circuit:
   * Board with NINA module (Arduino MKR WiFi 1010, MKR VIDOR 4000 and UNO WiFi Rev.2)
 
-  This example is based on ScanNetworksAdvanced
-
   modified 18 Jan 2019
   by Drew Alden (ReanimationXP)
 */
